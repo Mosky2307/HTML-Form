@@ -1,0 +1,104 @@
+#content {
+    background-color: rgb(235, 238, 240);
+    height: 98vh;
+    width: 100vw;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
+}
+header {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 35px;
+    top:10px;
+    
+}
+#haveAccount {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-right: 7px;
+}
+button {
+    background-color: rgb(113, 113, 194);
+    color: white;
+    border: 1px solid blue;
+    width: 105px;
+    height: 33px;
+    border-radius: 4px;
+}
+a {
+    text-decoration: none;
+}
+
+#mainContent {
+    position: absolute;
+    right: 40%;
+    top: 6%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+#intuitLogo {
+    width: 162px;
+    height: auto;
+   
+}
+#moreLogos {
+    color: rgb(104, 104, 109);
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    height: 600px;
+    width: 360px;
+    border: 1px solid rgb(104, 104, 109)
+}
+#create {
+    margin: 20px;
+    font-size: 25px;
+}
+#oneAccount {
+color: rgb(160, 160, 172);
+font-size: 15px;
+}
+#learnMore {
+color: rgb(150, 150, 209);
+font-size: 15px;
+}
+label {
+    margin: 10px;
+    width: 300px;
+    
+}
+input {
+    
+    width: 300px;
+    height: 26px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(119, 119, 128);
+    border-radius: 4px;
+}
+#recommended {
+    font-size: 15px;
+    color: rgb(119, 119, 128);
+}
+#Phone {
+    margin-bottom: 0%;
+}
+#rates {
+    width: 300px;
+    font-size: 13px;
+    margin-bottom: 40px;
+    color: rgb(119, 119, 128);
+}
+#submit {
+    width: 300px;
+    height: 45px;
+}
